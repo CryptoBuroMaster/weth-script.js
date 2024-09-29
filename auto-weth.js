@@ -4,7 +4,7 @@ import Web3 from 'web3'; // Use 'import' instead of 'require'
 const web3 = new Web3('https://testnet.storyrpc.io/');
 
 // Replace with your private key (Make sure you keep this private)
-const privateKey = '0xhsy3727zxxxxxxxxx';
+const privateKey = '0xafed5ca4427e11e99bd6bfeedeaa18512fdaa870409e3f3dd0df58d96d1b015e';
 
 // Replace with the SUDC contract address
 const contractAddress = '0x968B9a5603ddEb2A78Aa08182BC44Ece1D9E5bf0';
@@ -115,4 +115,3 @@ const automateClaims = async (numClaims) => {
 
 // Start automation for 15,000 claims
 automateClaims(15000);
-      
